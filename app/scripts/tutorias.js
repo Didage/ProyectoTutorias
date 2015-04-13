@@ -8,7 +8,7 @@
 			restrict: 'E',
 			templateUrl: '../pages/page-header.html',
 			controller: function(){
-				this.content = student;
+				this.content = exampleStudent;
 				this.logged = false;
 				this.login = function(){
 					this.logged = true
